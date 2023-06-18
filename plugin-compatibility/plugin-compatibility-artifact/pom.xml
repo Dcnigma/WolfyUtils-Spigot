@@ -23,7 +23,7 @@
     <parent>
         <artifactId>plugin-compatibility</artifactId>
         <groupId>com.wolfyscript.wolfyutils.spigot</groupId>
-        <version>4.16.11.0</version>
+        <version>4.16.12-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -35,8 +35,17 @@
             <url>https://jitpack.io</url>
         </repository>
         <repository>
-            <id>citizen</id>
-            <url>https://repo.citizensnpcs.co</url>
+          <id>jitpack</id>
+          <url>https://jitpack.io</url>
+        </repository>
+        <repository>
+          <id>minecraft</id>
+          <url>https://libraries.minecraft.net/</url>
+        </repository>
+        <repository>
+          <id>citizens-repo</id>
+          <name>Citizens Repository</name>
+          <url>https://maven.citizensnpcs.co/repo</url>
         </repository>
         <repository>
             <id>phoenix</id>
@@ -45,11 +54,16 @@
     </repositories>
 
     <dependencies>
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-lang3</artifactId>
+        <version>3.12.0</version>
+      </dependency>
         <!-- ExecutableItems -->
         <dependency>
             <groupId>com.github.Ssomar-Developement</groupId>
             <artifactId>SCore</artifactId>
-            <version>3.9.25</version>
+            <version>3.9.59</version>
             <scope>provided</scope>
         </dependency>
         <!-- Denizen -->
@@ -131,6 +145,13 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <dependency>
+          <groupId>io.lumine.xikage</groupId>
+          <artifactId>MythicMobs</artifactId>
+          <version>4.11.2</version>
+          <scope>provided</scope>
+        </dependency>
+
         <dependency>
             <groupId>io.lumine.mythic.mythicmobs</groupId>
             <artifactId>MythicMobs-Bukkit</artifactId>
