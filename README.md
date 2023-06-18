@@ -1,3 +1,11 @@
+Well i needed this plugin to work so i started fixing it up to work under 1.20
+
+In needed to get CustomCrafting to work so changed a little bit in the pom.xml to get it working..
+
+To get WolfyUtils-Spigot to build I needed to change a few things on my machine.
+
+
+
 <div align="center"><img src="https://user-images.githubusercontent.com/41468455/158254076-d856f0db-12a0-4cd8-a186-568a656dd96f.png" alt="WolfyUtilities Banner" /></div>
 
 ## WolfyUtils-Spigot
