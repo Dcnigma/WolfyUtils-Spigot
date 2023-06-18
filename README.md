@@ -1,7 +1,7 @@
 Well i needed this plugin to work so i started fixing it up to work under 1.20
 
 In needed to get CustomCrafting to work so changed a little bit in the pom.xml to get it working..
-
+<div align="center"><img src="https://github.com/Dcnigma/WolfyUtils-Spigot/blob/master/cc.png" alt="CC" /></div>
 To get WolfyUtils-Spigot to build I needed to change a few things on my machine.
 
 
